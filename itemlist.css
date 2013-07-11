@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+	text-align: left;
+	font-size: small
+}
+
+table {
+	margin-left: 0 px;
+	margin-right: auto;
+	width:100%
+}
+
+td {
+	color: black;
+	background-color: white
+}
+
+td.Left {
+	text-align: left
+}
+
+td.Center {
+	text-align: center
+}
+
+td.Right {
+	text-align: right
+}
+
+img {
+	text-align: left
+}
+
+img.v {
+	vertical-align: text-top
+}
