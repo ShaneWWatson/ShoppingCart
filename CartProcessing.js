@@ -205,9 +205,10 @@ function dynamicTable() {
     // arrayLength -= 1;
     arrayPointer = 1; // Item counts can be found after total item count
 
-    while (arrayPointer < (arrayLength + 1)) { // Create a dynamic table based
-        // on the data in the cookieData
-        // array
+    while (arrayPointer < arrayLength) {
+    	 /**
+         * Create a dynamic table based on the data in the cookieData array.
+         */
 
         newRow = document.getElementById('totals').insertRow(arrayPointer);
         /**
@@ -520,6 +521,9 @@ function isNumber(inputValue) {
 }
 function checkSubmission() {
     "use strict";
+    /**
+     * This section verifies that the customer has entered the shipping address at minimum.
+     */
     if ((document.forms[0].CName.value !== "")
             && (document.forms[0].Address.value !== "")
             && (document.forms[0].City.value !== "")
